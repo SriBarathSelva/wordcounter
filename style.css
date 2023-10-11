@@ -25,6 +25,13 @@ body {
      justify-content:center; /* Add this line */
      align-items:center; /* Add this line */
   }
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 25px;
+        height: 50px;
+        margin-top: 8%;
+    }
+  }
   
   textarea {
       resize:none;
